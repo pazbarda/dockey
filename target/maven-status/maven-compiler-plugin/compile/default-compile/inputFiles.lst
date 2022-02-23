@@ -1,0 +1,12 @@
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\model\exceptions\MissingProgramArgumentException.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\ApplicationArgumentsProvider.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\model\KeyWordsManifest.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\FileSystemService.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\KeyWordsService.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\DockeyApplication.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\DocumentsProcessingService.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\controllers\LocalController.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\model\exceptions\NoSuchDocumentException.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\KeyWordProcessingService.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\cli\ConsoleCLI.java
+F:\dev\dockey\src\main\java\com\pazbarda\dockey\services\DocumentsService.java

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.pazbarda.dockey.DockeyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.075 s <<< FAILURE! - in com.pazbarda.dockey.DockeyApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'consoleCLI': Unsatisfied dependency expressed through field 'localController'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'localController': Unsatisfied dependency expressed through field 'keyWordsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'keyWordsService': Invocation of init method failed; nested exception is com.pazbarda.dockey.model.exceptions.MissingProgramArgumentException: missing program argument: root.dir
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'localController': Unsatisfied dependency expressed through field 'keyWordsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'keyWordsService': Invocation of init method failed; nested exception is com.pazbarda.dockey.model.exceptions.MissingProgramArgumentException: missing program argument: root.dir
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'keyWordsService': Invocation of init method failed; nested exception is com.pazbarda.dockey.model.exceptions.MissingProgramArgumentException: missing program argument: root.dir
+Caused by: com.pazbarda.dockey.model.exceptions.MissingProgramArgumentException: missing program argument: root.dir
+

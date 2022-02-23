@@ -1,0 +1,12 @@
+com\pazbarda\dockey\services\FileSystemService.class
+com\pazbarda\dockey\services\KeyWordsService.class
+com\pazbarda\dockey\model\exceptions\MissingProgramArgumentException.class
+com\pazbarda\dockey\cli\ConsoleCLI.class
+com\pazbarda\dockey\services\KeyWordProcessingService.class
+com\pazbarda\dockey\services\ApplicationArgumentsProvider.class
+com\pazbarda\dockey\controllers\LocalController.class
+com\pazbarda\dockey\model\exceptions\NoSuchDocumentException.class
+com\pazbarda\dockey\model\KeyWordsManifest.class
+com\pazbarda\dockey\DockeyApplication.class
+com\pazbarda\dockey\services\DocumentsProcessingService.class
+com\pazbarda\dockey\services\DocumentsService.class
